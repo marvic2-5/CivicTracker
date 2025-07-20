@@ -26,15 +26,14 @@ CivicTrack is a decentralized civic issue reporting system built on the Stacks b
 
 ### Public Functions
 
-- `submit-issue(issue-type, location)`  
+ `submit-issue(issue-type, location)`  
   Submit a new civic issue. Returns the new issue ID on success.
-
-- `resolve-issue(issue-id)`  
+ `resolve-issue(issue-id)`  
   Resolve (close) an existing issue. Only the contract owner can call this.
 
 ### Read-Only Functions
 
-- `get-issue(issue-id)`  
+ `get-issue(issue-id)`  
   Returns the details of a specific issue.
 
 - `get-issue-count()`  
